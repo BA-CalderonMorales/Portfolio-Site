@@ -6,7 +6,7 @@ export const projects = [
       `I can make API calls to more than one server using React + Redux. What's great about this? 😄 Well, it works! I was able ` +
       `to successfully use React and Redux together to make api calls to two different servers. So I'm pretty proud of this one.`,
     image: '/images/ConstructionEcommerce.png',
-    tags: ['Mongo', 'Express', 'React', 'Node', 'C#', '.Net', 'ASP.NET Core Entity Framework', 'Material-UI'],
+    tags: ['MongoDB', 'Express ', 'React+Redux', 'Node ', 'ASP.NET'],
     source: 'https://github.com/BA-CalderonMorales/Construction-Ecommerce-Frontend',
     visit: 'https://www.linkedin.com/in/bcalderonmorales-cmoe/',
     id: 0,
@@ -30,7 +30,7 @@ export const projects = [
       `but it also taught me how powerful apis can be. Once properly implemented within one's own app, this can serve as a means of communication ` +
       `between clients and owners.`,
       image: '/images/ChatEngine.png',
-      tags: ['React', 'ChatEngine', 'Bootstrap', 'HTML', 'CSS'],
+      tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://github.com/BA-CalderonMorales/FacebookMessenger-Clone',
     visit: 'https://www.linkedin.com/in/bcalderonmorales-cmoe/',
     id: 2,
