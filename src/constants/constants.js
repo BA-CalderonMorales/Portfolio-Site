@@ -1,38 +1,49 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Construction Ecommerce',
+    description: 
+      `A full-stack web app that I built with MERN stack, but with a twist. I added my own ASP.Net backend server to see if ` + 
+      `I can make API calls to more than one server using React + Redux. What's great about this? 😄 Well, it works! I was able ` +
+      `to successfully use React and Redux together to make api calls to two different servers. So I'm pretty proud of this one.`,
+    image: '/images/ConstructionEcommerce.png',
+    tags: ['Mongo', 'Express', 'React', 'Node', 'C#', '.Net', 'ASP.NET Core Entity Framework', 'Material-UI'],
+    source: 'https://github.com/BA-CalderonMorales/Construction-Ecommerce-Frontend',
+    visit: 'https://www.linkedin.com/in/bcalderonmorales-cmoe/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'YouTube Clone',
+    description: 
+      `This web application was built using YouTube V3 API to retrieve a video and show it to a user. It's also able to retrieve ` +
+      `related videos, along with searched videos. It's currently unable to store comments, but that will be a feature implemented ` +
+      `in future iterations. I worked on this project with a buddy of mine while a student at DevCodeCamp. His name is James Burgess. `,
+    image: '/images/YouTubeClone.png',
+    tags: ['React', 'JavaScript', 'YouTube V3 API', 'Bootstrap'],
+    source: 'https://github.com/BA-CalderonMorales/YoutubeCloneProject-Frontend',
+    visit: 'https://ba-calderonmorales.github.io/YoutubeCloneProject-Frontend/',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'ChatEngine App',
+    description: `I built this web application using an api called ChatEngine IO. I was able to integrate this chat engine within my ` +
+      `Construction Ecommerce web application that you saw earlier. It was a pretty sweet project that took minimal effort to implement ` +
+      `but it also taught me how powerful apis can be. Once properly implemented within one's own app, this can serve as a means of communication ` +
+      `between clients and owners.`,
+      image: '/images/ChatEngine.png',
+      tags: ['React', 'ChatEngine', 'Bootstrap', 'HTML', 'CSS'],
+    source: 'https://github.com/BA-CalderonMorales/FacebookMessenger-Clone',
+    visit: 'https://www.linkedin.com/in/bcalderonmorales-cmoe/',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Music Library',
+    description: `In this project, I worked with another buddy of mine, Carter Wiley, in creating a music library that stores a user's favorite ` +
+      `songs. It uses React and Django REST Framework to create a snappy experience for a user visiting the web application. I was really happy ` +
+      `when I finished this project. It was definitely a great experience to work with Carter in a paired programming style.`,
+    image: '/images/MusicLibrary.png',
+    tags: ['React', 'Django REST Framework', 'Python'],
+    source: 'https://github.com/BA-CalderonMorales/MusicLibraryProject-FrontEnd',
+    visit: 'https://www.linkedin.com/in/bcalderonmorales-cmoe/',
     id: 3,
   },
 ];
