@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const ImageContainer = styled.div`
   text-align: center;
-  background-image: radial-gradient(50% 50% at 50% 50%, rgba(79, 108, 176, 0.25) 53.8%, rgba(79, 108, 176, 0) 100%);
   width: 100%;
   padding: 60px;
   margin-top: 48px;
@@ -25,6 +24,7 @@ export const ImageContainer = styled.div`
 
 export const MainImage = styled.img`
   width: 100%;
+  color: black;
 `
 
 export const List = styled.ul`
@@ -66,7 +66,7 @@ export const ListTitle = styled.h4`
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: black;
   margin-bottom: 8px;
   text-align: center;
 
@@ -80,13 +80,14 @@ export const ListTitle = styled.h4`
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-bottom: 4px;
+  text-align: start;
 }
 `
 
 export const ListParagraph = styled.p`
   font-size: 18px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   text-align: center;
 
   @media ${props => props.theme.breakpoints.md}{
@@ -97,6 +98,8 @@ export const ListParagraph = styled.p`
   @media ${props => props.theme.breakpoints.sm}{
     font-size: 14px;
     line-height: 22px;
+    align-items: start;
+    text-align: start;
   }
 `
 
@@ -105,6 +108,7 @@ export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: black;
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;
@@ -114,6 +118,7 @@ export const ListItem = styled.li`
   margin-bottom: 14px;
   max-width: 320px;
   flex-direction: row;
+  align-items: start;
 }
 `
 

@@ -4,11 +4,11 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section nopadding id="tech">
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      Capable of working with multiple frontend frameworks and backend databases.
+      Capable of working with multiple frontend frameworks and backend databases in Python, JavaScript, C#, and Java languages.
     </SectionText>
     <List>
       <ListItem>
@@ -44,10 +44,14 @@ const Technologies = () =>  (
       <ListItem>
         <DiGitCommit size="3rem" />
         <ListContainer>
-          <ListTitle>Source Control</ListTitle>
+          <ListTitle>Source Control & Tech Tools</ListTitle>
           <ListParagraph>
             GitHub <br />
-            Git
+            Git <br />
+            Postman <br />
+            Notion <br />
+            Slack <br />
+            Discord <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

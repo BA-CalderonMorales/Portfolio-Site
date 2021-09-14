@@ -49,9 +49,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2013, text: 'Started taking business administration classes at local university.' },
+  { year: 2015, text: 'Needed to find a way to pay for my education, so I enlisted in the Marines.' },
+  { year: 2016, text: 'Selected to attend a court reporter course with a high dropout rate. Passed with flying colors.' },
+  { year: 2018, text: 'Selected to tour Moron De La Frontera, Spain in a SPMAGTF (Special Purpose Marine Air Ground Task Force) to serve as the Legal Chief' },
+  { year: 2019, text: 'Honorably discharged from the United States Marine Corps with the rank of Sergeant. Started college again.', },
+  { year: 2021, text: 'Took a break from college to attend DevCodeCamp. Graduated dCC in August of this year. Founded CodingHelp101 Discord Server.' , },
+  { year: 2022, text: 'Looking to continue my college education while I\'m employed. Only 10 credits left!', },
 ];
