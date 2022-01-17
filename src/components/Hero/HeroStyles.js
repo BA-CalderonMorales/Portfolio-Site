@@ -1,20 +1,20 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeroSection = styled.div`
-  justify-content: center;
+  display: flex;
   text-align: center;
-  margin-top: 5rem;
+  flex-direction: column;
+  padding-left: 8rem;
   width: 100%;
-  
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 100%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+    padding-left: 0rem;
+    margin-left: -8rem;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-left: 0rem;
+    margin-left: 0rem;
+    text-align: justify;
   }
 `;
