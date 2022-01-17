@@ -3,13 +3,8 @@ import Link from 'next/link';
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { Nav, Hamburger, Logo, Menu, Social, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-    console.log(isOpen);
-  }
+const Header = ({handleClick, isOpen}) => {
+  
 
   return (
     <Nav>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiGitCommit, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiGitCommit, DiReact } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -17,8 +17,13 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             React.js + Redux <br />
+            Angular.js CLI<br />
+            Axios <br />
+            Backbone.js <br />
+            Ampersand.js <br />
             Next.js <br />
             Material-UI <br />
+            Semantic-UI <br />
             Styled-Components <br />
             Theme-UI <br />
           </ListParagraph>
@@ -32,7 +37,6 @@ const Technologies = () =>  (
             Mongoose <br />
             Express <br />
             Node <br />
-            Axios <br />
             ASP.NET Core Entity Framework <br />
             MSSQL <br />
             Django REST Framework <br />
@@ -47,8 +51,11 @@ const Technologies = () =>  (
           <ListTitle>Source Control & Tech Tools</ListTitle>
           <ListParagraph>
             GitHub <br />
+            Azure DevOps <br />
+            BitBucket <br />
             Git <br />
             Postman <br />
+            Jira <br />
             Notion <br />
             Slack <br />
             Discord <br />

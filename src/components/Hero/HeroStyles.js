@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import BgAnimation from '../BackgrooundAnimation/BackgroundAnimation';
 
 export const HeroSection = styled.div`
   justify-content: center;
