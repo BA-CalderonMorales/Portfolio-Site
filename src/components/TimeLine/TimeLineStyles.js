@@ -1,19 +1,14 @@
 import styled from "styled-components";
 
 export const CarouselContainer = styled.ul`
-  max-width: 1040px;
   background: #273043;
-  padding: 0rem;
-  list-style: none;
+  padding: 1.5rem;
+  list-style: none !important;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row-flex !important;
+  column-gap: 10.75rem !important;
   border-radius: 10px;
-  /* overflow-x: hidden; */
-  margin-left: 32px;
-  &:first-of-type {
-    margin-left: 0px;
-  }
-  margin-bottom: 80px;
+  margin-bottom: 75px;
   //remove scrollbar
   scrollbar-width: none;
   &::-webkit-scrollbar {
