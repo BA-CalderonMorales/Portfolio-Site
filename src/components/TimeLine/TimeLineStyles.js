@@ -43,7 +43,7 @@ export const CarouselMobileScrollNode = styled.div`
 export const CarouselItem = styled.div`
   background: #273043;
   border-radius: 4px;
-  max-width: 50px;
+  max-width: 80px;
   padding: 10px;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -69,7 +69,7 @@ export const CarouselItem = styled.div`
 
 export const CarouselItemTitle = styled.h4`
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.02em;
   display: flex;
@@ -116,6 +116,7 @@ export const CarouselItemText = styled.p`
   letter-spacing: 0.2em;
   color: rgba(255, 255, 255, 0.75);
   padding-right: 10px;
+  text-align: left;
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 12px;
@@ -155,6 +156,11 @@ export const CarouselButton = styled.button`
 
   &:focus {
     outline: none;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    background: none;
+    display: none;
   }
 `;
 

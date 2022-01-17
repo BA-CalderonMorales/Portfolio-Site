@@ -21,13 +21,13 @@ import { projects } from "../../constants/constants";
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle accessKey="title">Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, source }) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
-            <HeaderFour title>{title}</HeaderFour>
+            <HeaderFour title="true">{title}</HeaderFour>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
