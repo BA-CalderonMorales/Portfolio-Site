@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 export const GridContainer = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   place-items: center;
   column-gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
+    padding-bottom: 2rem;
   }
 `;
 export const Img = styled.img`
@@ -27,7 +26,7 @@ export const BlogCard = styled.div`
   height: 460px;
   background-color: #273043;
   border-radius: 2rem;
-  box-shadow: 1rem 1rem 2.25rem 1rem rgba(1, 2, 15);
+  box-shadow: 0.5rem 0.2rem 0.6rem 0.5rem rgba(1, 2, 15);
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -37,7 +36,6 @@ export const TitleContent = styled.div`
   text-align: center;
   margin: 0;
   padding: 0;
-  z-index: 20;
   width: 100%;
   color: whitesmoke;
 `;
@@ -47,7 +45,7 @@ export const HeaderFour = styled.h4`
   letter-spacing: 2px;
   color: whitesmoke;
   padding: 0.5rem 0;
-  font-size: ${(props) => (props.title = "title" ? "3rem" : "2rem")};
+  font-size: ${(props) => (props.title = "title" ? "2.5rem" : "")};
 `;
 
 export const Hr = styled.hr`
@@ -76,29 +74,30 @@ export const CardInfo = styled.p`
   line-height: 16px;
   text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
-    margin: 1rem 4rem 1rem;
-    font-size: 1.2rem;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 1rem 6rem 1rem;
+    font-size: 1.5rem;
+    margin: 1.25rem 1rem 1rem 5rem;
+    padding: 0;
+    text-align: justify;
+    line-height: 2rem;
   }
 `;
 
 export const UtilityList = styled.ul`
   list-style-type: none;
-  padding: 0;
   display: flex;
-  justify-content: space-around;
-  margin: 2rem 0;
+  margin-bottom: 1rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 `;
 
 export const ExternalLinks = styled.a`
   color: black;
   background-color: whitesmoke;
-  font-size: 1.6rem;
-  padding: 1rem 1.5rem;
-  border-radius: 15px;
+  font-size: 2rem;
+  display: absolute !important;
+  border-radius: 2px;
+  padding: 0.5rem;
   transition: 0.5s;
   &:hover {
     background: #273043;
@@ -107,8 +106,7 @@ export const ExternalLinks = styled.a`
 `;
 
 export const TagList = styled.ul`
-  display: flex;
-  justify-content: space-around;
+  display: absolute;
   padding: 2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: none;
