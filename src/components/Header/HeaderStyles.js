@@ -75,11 +75,15 @@ export const Hamburger = styled.div`
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    background: white;
-    border-radius: 5px;
-    transition: 0.5s ease;
+    background-color: white;
+    border-radius: 25rem;
+    transition: 0.75s ease-in-out;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-top: 1rem;
     &:hover {
       background: #f02d3a;
+      transform: rotate3d(0, 0, 5, 360deg);
       opacity: 1;
       cursor: pointer;
     }
