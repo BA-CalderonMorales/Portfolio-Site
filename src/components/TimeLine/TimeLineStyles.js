@@ -16,7 +16,11 @@ export const CarouselContainer = styled.ul`
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 800px;
+    width: 680px;
+    flex-direction: column !important;
+    justify-content: flex-center !important;
+    align-content: flex-center !important;
+    align-items: flex-center !important;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -43,7 +47,8 @@ export const CarouselItem = styled.div`
   padding: 10px;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 120px;
+    max-width: 100rem;
+    margin-left: 3rem;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -113,8 +118,9 @@ export const CarouselItemText = styled.p`
   padding-right: 10px;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 24px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center !important;
     padding-right: 32px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
