@@ -49,11 +49,16 @@ export const HeaderFour = styled.h4`
 `;
 
 export const Hr = styled.hr`
-  width: 15rem;
-  height: 3px;
-  margin: 2px auto;
+  width: 20rem;
+  height: 0.5px;
+  margin: 1rem auto;
   border: 0;
   background: whitesmoke;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    transition: cubic-bezier(1, 1, 1, 1);
+    transform: rotate3d(0, 1, 0, 180deg);
+  }
 `;
 
 export const Intro = styled.div`
