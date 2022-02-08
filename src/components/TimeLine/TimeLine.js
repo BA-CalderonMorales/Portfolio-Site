@@ -77,8 +77,6 @@ const Timeline = () => {
       <SectionText>
         I started to learn how to code in 2019, after I was honorably discharged
         from the United States Marine Corps. <br />
-        <br />
-        You can check out a timeline of my coding journey so far below.
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}> */}
       <CarouselContainer ref={carouselRef}>
