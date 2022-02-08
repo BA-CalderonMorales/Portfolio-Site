@@ -6,7 +6,7 @@ export const projects = [
       `I can make API calls to more than one server using React + Redux. What's great about this? 😄 Well, it works! I was able ` +
       `to successfully use React and Redux together to make api calls to two different servers. So I'm pretty proud of this one.`,
     image: "/images/ConstructionEcommerce.png",
-    tags: ["MongoDB", "Express ", "React+Redux", "Node ", "ASP.NET"],
+    tags: ["MongoDB", "Express ", "React+Redux", "Node", "ASP.NET"],
     source:
       "https://github.com/BA-CalderonMorales/Construction-Ecommerce-Frontend",
     visit: "https://www.linkedin.com/in/bcalderonmorales-cmoe/",
